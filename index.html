@@ -1,0 +1,27 @@
+<!--CMD SHT B runs page in Chrome-->
+<html>
+
+<head>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="page/javascript/bootstrap/bootstrap.min.js"></script>
+    <script src="page/javascript/bootstrap/bootstrap-toggle.js"></script>
+    <script src="channels.js"></script>
+    <script src="channel.js"></script>
+    <link href="channelsCS.css" rel="stylesheet">
+    <link href="page/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="page/css/bootstrap/bootstrap-toggle.css" rel=stylesheet> </head>
+
+<body>
+    <div onClick="channels.start()"> Start.</div>
+    <div onClick="append()"> Append.</div>
+    <div onClick="prepend()"> Prepend.</div>
+    <div onClick="renderAll()"> Render All.</div>
+    <div onClick="ten()">Ten.</div>
+    <div onClick="testAPI()">Test API</div>
+    <div onClick="create5min()">create 5 Minute Column.</div>
+    <div id="m" class="channelsContainer"></div>
+</body>
+
+</html>

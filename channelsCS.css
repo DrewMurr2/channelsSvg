@@ -1,0 +1,36 @@
+.track {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.channel {
+    width: 100%;
+    height: 20%;
+    position: relative
+}
+
+.channel.even {
+    background: tan;
+}
+
+.channel.odd {
+    background: grey;
+}
+
+.corner {
+    z-index: 1000;
+    preserveAspectRatio: none;
+}
+
+.channelsContainer {
+    height: 60%;
+    overflow: auto
+}
+
+.polyTrack {
+    fill: none;
+    stroke: color;
+    stroke-width: 3
+}
